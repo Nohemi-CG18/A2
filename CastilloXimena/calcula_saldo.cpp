@@ -1,7 +1,8 @@
-nclude <iostream> //Llamando a la libreria para lograr tener ingreso a los dispositivos de ingreso y/o salida.
-using namespace std;//Es ingresar el  espacio del nombre donde está encerrado toda la libreria.
-int main()//Aqui iniciamos la ejecucion del programa
-{//Abrimos llave.
+//Autor: Ximena Nohemí Castillo Gonzales 
+#include <iostream> //Llamando a la libreria para lograr tener ingreso a los dispositivos de ingreso y/o salida.
+using namespace std;//Es ingresar al  espacio del nombre donde está encerrado toda la libreria.
+int main()//Aqui iniciamos la ejecucion del programa.
+{//Abrimos llave
 	float XNCG_x,XNCG_s=0;//Usamos float para representar un caracter y declaramos las variables flotantes.
 	int XNCG_i=0,XNCG_l;//Usamos int para representar un caracter y declaramos las variables enteras.
 	cout<<"Ingrese cantidad de egresos (l): ";cin>>XNCG_l;//Usamos cout para mostar por pantalla cualquier dato y cin para que el usuario ingrese datos.
